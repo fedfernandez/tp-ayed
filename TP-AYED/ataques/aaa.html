@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ruta de ataque del drone</title>
+<style>
+body { font-family: Arial, sans-serif; background: #eee; }
+h1 { text-align: center; }
+table { border-collapse: collapse; margin: auto; }
+td { width: 7px; height: 7px; border: 1px solid #ddd; text-align: center; font-size: 5px; }
+.vacia { background: #fff; }
+.despegue { background: #7ae07a; }
+.aterrizaje { background: #f5e56b; }
+.kamikaze { background: #f08080; }
+.ataque { background: #87ceeb; }
+.espera { background: #d3d3d3; }
+.movimiento { background: #c8b6f0; }
+p { text-align: center; }
+</style>
+</head>
+<body>
+<h1>Ruta de ataque del drone</h1>
+<table>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="despegue" title="(1,1) DESPEGUE | MOVER A (6,6)">D</td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="kamikaze" title="(4,4) KAMIKAZE">K</td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="ataque" title="(8,8) GRANADA 1 | MOVER A (9,9)">1</td>
+<td class="vacia"></td>
+</tr>
+<tr>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+<td class="vacia"></td>
+</tr>
+</table>
+<p>D=despegue A=aterrizaje K=kamikaze 1/2=granadas E=espera M=movimiento (detalle completo sobre cada celda)</p>
+</body>
+</html>

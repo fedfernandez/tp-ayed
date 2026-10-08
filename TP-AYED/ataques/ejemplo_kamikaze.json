@@ -1,0 +1,43 @@
+{
+  "filas": 10,
+  "columnas": 10,
+  "tamano": { "filas": 10, "columnas": 10 },
+  "registros": [
+    {
+      "x": 0,
+      "y": 0,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": false,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": true,
+      "siguiente_x": 1,
+      "siguiente_y": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": true,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": false,
+      "siguiente_x": 1,
+      "siguiente_y": 1
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": false,
+      "kamikaze": true,
+      "aterrizaje": false,
+      "despegue": false,
+      "siguiente_x": 0,
+      "siguiente_y": 0
+    }
+  ]
+}

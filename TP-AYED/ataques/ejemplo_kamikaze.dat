@@ -1,0 +1,4 @@
+x,y,espera,bomba1,bomba2,kamikaze,aterrizaje,despegue,siguiente_x,siguiente_y
+0,0,0,0,0,0,0,1,1,0
+1,0,0,0,1,0,0,0,1,1
+1,1,0,0,0,1,0,0,0,0

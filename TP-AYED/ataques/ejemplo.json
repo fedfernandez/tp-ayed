@@ -1,0 +1,67 @@
+{
+  "filas": 10,
+  "columnas": 10,
+  "tamano": { "filas": 10, "columnas": 10 },
+  "registros": [
+    {
+      "x": 0,
+      "y": 0,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": false,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": true,
+      "siguiente_x": 0,
+      "siguiente_y": 1
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "espera": 10,
+      "bomba1": true,
+      "bomba2": false,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": false,
+      "siguiente_x": 1,
+      "siguiente_y": 1
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": true,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": false,
+      "siguiente_x": 1,
+      "siguiente_y": 2
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": false,
+      "kamikaze": false,
+      "aterrizaje": false,
+      "despegue": false,
+      "siguiente_x": 2,
+      "siguiente_y": 2
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "espera": 0,
+      "bomba1": false,
+      "bomba2": false,
+      "kamikaze": false,
+      "aterrizaje": true,
+      "despegue": false,
+      "siguiente_x": 0,
+      "siguiente_y": 0
+    }
+  ]
+}
