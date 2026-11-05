@@ -13,9 +13,9 @@ Curso: K1051
 
 | Apellido y nombre | Legajo | Correo institucional (FRBA) | Usuario de GitHub | Parte del trabajo |
 | --- | --- | --- | --- | --- |
-| Fernandez Federico | [COMPLETAR] | fedfernandez@frba.utn.edu.ar | fedfernandez | Operaciones 3, 6 y 7 |
-| Ocello Santiago | [COMPLETAR] | socello@frba.utn.edu.ar | SantiOcello | [COMPLETAR] |
-| Cisneros Victoria | [COMPLETAR] | vcisneros@frba.utn.edu.ar | Kaitonline | Estructuras de datos, Operaciones 1 y 2 |
+| Fernandez Federico | 235.036-7 | fedfernandez@frba.utn.edu.ar | fedfernandez | Operaciones 3, 6 y 7 |
+| Ocello Santiago | 222.556-6 | socello@frba.utn.edu.ar | SantiOcello | Operaciones 4 y 5 |
+| Cisneros Victoria | 222.224-3 | vcisneros@frba.utn.edu.ar | Kaitonline | Estructuras de datos, Operaciones 1 y 2 |
 
 ## Estructura del repositorio
 
