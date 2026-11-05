@@ -1,6 +1,7 @@
 # TP Grupal AyED: sistema de guía de apoyo para drones
 
 UTN FRBA · Algoritmos y Estructuras de Datos · Curso K1051 · Docente: Ing. Mendez
+
 Fecha de entrega: 5/11/2026
 
 Programa en C++ que simula la lógica offline de un dron cuando el enemigo bloquea el GPS. El dron sigue una
