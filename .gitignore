@@ -1,0 +1,14 @@
+# Code::Blocks: archivos que genera el IDE al compilar
+obj/
+bin/
+*.layout
+*.depend
+*.o
+*.save-failed
+
+# El ejecutable NO se sube al repositorio (consigna del docente)
+*.exe
+
+# Sistema operativo
+Thumbs.db
+.DS_Store

@@ -1,0 +1,42 @@
+ARCHIVOS DE PRUEBA - Operacion 1 (cargar archivo de ataque)
+
+Como usarlos
+  Ejecutar el programa desde Code::Blocks (el proyecto ya tiene como carpeta de trabajo la
+  raiz del repositorio) y, en la opcion 1, escribir la ruta con la carpeta adelante:
+
+        pruebas/ok_diag.dat
+
+  Si se ejecuta el .exe suelto, copiar los .dat junto al ejecutable o escribir la ruta completa.
+
+Los resultados indicados son los que debe mostrar el programa.
+
+DEBEN CARGARSE
+ok_diag.dat            Ruta valida con un movimiento diagonal y una espera        -> cargado (3 registros)
+ok_granadas.dat        Granada 1, granada 2, espera y aterrizaje                  -> cargado (4 registros)
+ok_ambas_en_una.dat    Ambas granadas y kamikaze en la celda final                -> cargado (2 registros)
+desordenado.dat        Registros en el archivo fuera del orden de la ruta         -> cargado (3 registros)
+larga45.dat            Ruta de 45 celdas (sirve para probar la paginacion, op 2)  -> cargado (45 registros)
+
+DEBEN RECHAZARSE (el programa informa el motivo y NO carga el archivo)
+prueba2_repetida.dat   Dos registros para la celda [2][2]                         -> celda repetida
+fuera_coord.dat        Registro con coordenada [300][300]                         -> fuera de la tabla
+fuera_siguiente.dat    El despegue apunta a [-1][0]                               -> apunta fuera de la tabla
+huerfano.dat           Un registro que no forma parte de la ruta                  -> registros fuera de la ruta
+truncado.dat           Archivo cortado a mitad de un registro                     -> no corresponde a registros completos
+vacio.dat              Archivo sin registros                                      -> no tiene registros
+sin_despegue.dat       Ningun despegue                                            -> debe haber exactamente 1 despegue
+dos_despegues.dat      Dos despegues                                              -> debe haber exactamente 1 despegue
+despegue_ataca.dat     Despegue con granada 1                                     -> despegue acompanado de ataques
+despegue_aterriza.dat  Despegue y aterrizaje en la misma celda                    -> despegue y aterrizaje a la vez
+sin_final.dat          Sin aterrizaje ni kamikaze                                 -> debe haber exactamente 1 final
+dos_finales.dat        Kamikaze y aterrizaje en celdas distintas                  -> debe haber exactamente 1 final
+aterr_y_kami.dat       Aterrizaje y kamikaze en la misma celda                    -> aterrizaje y kamikaze a la vez
+se_apunta.dat          Una celda apunta a si misma                                -> apunta a si misma
+salto.dat              Salto de [1][1] a [5][1]                                   -> no son celdas aledanas
+hueco.dat              [1][1] apunta a [2][1], que no tiene registro              -> hueco en la ruta
+ciclo.dat              La ruta vuelve a pasar por [2][1]                          -> pasa mas de una vez
+dos_granada1.dat       La granada 1 se suelta en dos celdas                       -> maximo 1
+dos_granada2.dat       La granada 2 se suelta en dos celdas                       -> maximo 1
+
+Para las operaciones 3, 4, 5, 6 y 7 se prueba directamente desde el menu
+(ver el informe).

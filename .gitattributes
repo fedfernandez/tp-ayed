@@ -1,0 +1,9 @@
+# Evita que Git altere los saltos de linea de los archivos binarios
+* text=auto
+*.cpp text
+*.md text
+*.txt text
+*.cbp text
+*.dat binary
+*.pdf binary
+*.zip binary
